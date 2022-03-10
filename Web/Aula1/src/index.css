@@ -17,7 +17,7 @@ body {
     border: solid 3px rgb(248, 130, 51);
     background-color: rgb(248, 152, 87);
     width: 32%;
-    height: 200px;
+    height: 320px;
     float: left;
     margin-left: 4px;
     text-align: center;
@@ -35,13 +35,13 @@ body {
 
 .h1-master {
     color: white;
-    font-size: 40px;
+    font-size: 48px;
     margin-top: 2px;    
 }
 
 .h1 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 15px;
 }
 

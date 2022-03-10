@@ -1,0 +1,59 @@
+05/03/2022
+
+Professor Evandro ------- Banco de Dados...
+
+
+
+
+----------------------------------------------- // -------------------------------------
+
+Banco de Dados:   ---------------> É uma coleção de dados separados por assunto  
+                  ----------> Repositório = local para armazenamento de "alguma coisa"
+    - Clientes
+    - Estoques
+    - Financeiro
+    - Fornecedores
+    - ...
+
+----------------------------------------------- // -------------------------------------
+
+SGBD  = Sistema Gerenciador de Banco de Dados...
+
+- Postgres
+- SQL
+- Maria DB
+- ...
+
+----------------------------------------------- // -------------------------------------
+
+Dado VS Informação
+
+    - Dado por si só é irrelevante   
+            --------------> é como um dado é guardado 
+            
+            abacaxi | 10 | 7.53 | KG             ----------> apenas isso é somente dado, irrelevante
+
+    - Informação é um conjunto de dados que se tornam uma Informação relevante
+            --------------> é como os dados são apresentados ao usuário
+
+            Produto   Qtd  Valor  Unidade         ----------> isso é informação
+            abacaxi | 10 | 7.53 | KG
+
+
+----------------------------------------------- // -------------------------------------
+
+SGBD                                                       reponse
+------                                                 ---------------->
+DB é o repositório                   DB (Repositório)                      SG (Aplicação)
+SG é o sistema de integração                           <----------------
+                                                           request
+
+
+----------------------------------------------- // -------------------------------------
+
+SGBD
+-----    -------> usuário comun não acessa, quem acessa é o DBA (Adminstrador de DB) 
+Usuário                         > Medida de Segurança <
+
+
+Cada Entidade ou tabela tem uma chave (id) e seus atributos.

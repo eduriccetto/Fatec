@@ -1,0 +1,9 @@
+Desenvolvimento Web
+
+*---------------------------------------------------------
+Como linkar uma documento HTML a um documento CSS:
+    adicionar esta tag abaixo ao HEAD do HTML.
+        <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
+            Onde o "stylesheet.css" é a referência do nome do arquivo CSS.
+
+*----------------------------------------------------------

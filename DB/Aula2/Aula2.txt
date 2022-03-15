@@ -1,0 +1,35 @@
+Hoje o assunto abordado será Cardinalidade.
+
+Grau do Relacionamento: É o número de ocorrências de uma entidade A que está associado 
+com ocorrências de outra entidade B. Grau do Relacionamento também é chamado de Cardinalidade
+
+Há três graus de relacionamento:
+
+Relacionamento de Um para Um
+Relacionamento de Um para Muitos ou Muitos para Um
+Relacionamento de Muitos para Muitos
+Nas cardinalidades temos:
+
+Cardinalidade Máxima: Número máximo de vezes que uma entidade A pode ocorrer em B. Pode assumir 
+o valor de 1 ou N (inúmeras vezes).
+Cardinalidade Mínima: Número mínimo de vezes que uma entidade A pode ocorrer em B. Pode assumir 
+o valor de 0 ou 1
+Descrição dos relacionamentos:
+
+Relacionamento de Um para Um (1 X 1)
+Cada elemento de uma entidade A relaciona se com um e somente um elemento de outra entidade B.
+Nesse tipo de relacionamento a cardinalidade mínima influência na modelagem.
+ 
+
+Relacionamento de Um para Muitos (1 X N) ou Muitos para Um (N X 1)
+O elemento de uma entidade A pode se relacionar com mais de um elemento de outra entidade B.
+Durante este tipo de relacionamento a ordem influência no resultado de onde o atributo de referencia 
+também chamado de chave estrangeira (este atributo referência a chave primária de outra tabela) será 
+adicionado. Normalmente onde há cardinalidade máxima N.
+ 
+
+Relacionamento de Muitos para Muitos (N x N)
+Vários elementos de uma entidade A podem se relacionar com vários elementos de uma entidade de B e 
+vice-versa.
+Na modelagem quando ocorre um relacionamento N x N, criasse uma nova entidade para armazenar dados 
+das entidades que estavam se relacionando inicialmente.
